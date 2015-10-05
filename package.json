@@ -1,0 +1,45 @@
+{
+  "name": "botify-sdk-jsplus",
+  "version": "1.0.0",
+  "description": "Botify JS SDK enhanced",
+  "author": "Botify <labs@botify.com>",
+  "scripts": {
+    "lint": "gulp estlint",
+    "test": "karma start"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/botify-hq/botify-sdk-jsplus.git"
+  },
+  "dependencies": {
+    "botify-sdk-js": "../APIMATIC/botify/botify-sdk-js",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel": "^5.0.8",
+    "babel-core": "^5.0.8",
+    "babel-loader": "^5.0.0",
+    "chai": "^3.0.0",
+    "eslint": "^1.4.1",
+    "expect": "^1.6.0",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^0.2.2",
+    "gulp-eslint": "^1.0.0",
+    "gulp-shell": "^0.4.0",
+    "gulp-util": "^3.0.4",
+    "karma": "^0.13.3",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^0.5.0",
+    "karma-mocha": "^0.2.0",
+    "karma-notify-reporter": "^0.1.1",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "nyan-progress-webpack-plugin": "^1.0.0",
+    "run-sequence": "^1.0.2",
+    "strftime": "^0.8.4",
+    "webpack": "^1.9.5",
+    "yargs": "^3.5.3"
+  }
+}
